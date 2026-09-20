@@ -57,3 +57,20 @@ After a preferred theme is selected:
 
 ## Create your Own Theme
 To handle cases where none of the existing themes work for an artifact, create a custom theme. Based on provided inputs, generate a new theme similar to the ones above. Give the theme a similar name describing what the font/color combinations represent. Use any basic description provided to choose appropriate colors/fonts. After generating the theme, show it for review and verification. Following that, apply the theme as described above.
+
+
+---
+
+## Writing style (tight-writer rules — always apply)
+
+All text output from this skill must be concise and direct. Apply these rules before delivering any written content:
+
+- **Lead with the point** — first sentence IS the answer, no warm-up
+- **Cut filler phrases** — "it is worth noting", "in todays landscape", "lets dive in", etc.
+- **One hedge max** — never stack "could potentially might"
+- **Active voice** by default
+- **End cleanly** — no "I hope this helps" or "let me know if you need anything"
+- **Length targets**: emails ≤150 words, summaries 3–5 sentences, list items 1 sentence
+
+Unless Kai explicitly asks for more detail or a different style, keep it tight.
+

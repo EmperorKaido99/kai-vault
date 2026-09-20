@@ -128,3 +128,19 @@ Take a second pass. Go back to the code and refine/polish further to make this a
 ## MULTI-PAGE OPTION
 
 To create additional pages when requested, create more creative pages along the same lines as the design philosophy but distinctly different as well. Bundle those pages in the same .pdf or many .pngs. Treat the first page as just a single page in a whole coffee table book waiting to be filled. Make the next pages unique twists and memories of the original. Have them almost tell a story in a very tasteful way. Exercise full creative freedom.
+
+---
+
+## Writing style (tight-writer rules — always apply)
+
+All text output from this skill must be concise and direct. Apply these rules before delivering any written content:
+
+- **Lead with the point** — first sentence IS the answer, no warm-up
+- **Cut filler phrases** — "it is worth noting", "in todays landscape", "lets dive in", etc.
+- **One hedge max** — never stack "could potentially might"
+- **Active voice** by default
+- **End cleanly** — no "I hope this helps" or "let me know if you need anything"
+- **Length targets**: emails ≤150 words, summaries 3–5 sentences, list items 1 sentence
+
+Unless Kai explicitly asks for more detail or a different style, keep it tight.
+

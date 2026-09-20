@@ -1,0 +1,11 @@
+{
+  "browser": "chrome",
+  "user_data_dir": "~/.lts-timesheet-browser-profile",
+  "pts_url": "https://www.ltsystems.co.za/",
+  "pts_credentials": {
+    "username": "malachi3114@gmail.com",
+    "password": "vsi2yipj"
+  },
+  "calendar_keywords": ["LTS", "Thato", "Susan", "Michael", "CPD", "daily spark", "morning sync"],
+  "selectors": {}
+}

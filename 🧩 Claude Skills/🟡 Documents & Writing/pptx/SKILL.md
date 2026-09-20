@@ -236,3 +236,20 @@ ls -1 "$PWD"/slide-*.jpg
 ## Dependencies
 
 `pptxgenjs` (npm, preinstalled — install only if `require('pptxgenjs')` fails) · `markitdown[pptx]`, `Pillow`, `defusedxml`, `lxml` (pip — text dump, thumbnail, clean, validate) · LibreOffice (`soffice`, auto-configured for sandboxed environments via `scripts/office/soffice.py`) · `pdftoppm` (Poppler)
+
+
+---
+
+## Writing style (tight-writer rules — always apply)
+
+All text output from this skill must be concise and direct. Apply these rules before delivering any written content:
+
+- **Lead with the point** — first sentence IS the answer, no warm-up
+- **Cut filler phrases** — "it is worth noting", "in todays landscape", "lets dive in", etc.
+- **One hedge max** — never stack "could potentially might"
+- **Active voice** by default
+- **End cleanly** — no "I hope this helps" or "let me know if you need anything"
+- **Length targets**: emails ≤150 words, summaries 3–5 sentences, list items 1 sentence
+
+Unless Kai explicitly asks for more detail or a different style, keep it tight.
+
