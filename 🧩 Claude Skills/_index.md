@@ -1,4 +1,4 @@
-﻿# Claude Skills Index
+# Claude Skills Index
 
 This vault is Claude's brain. All skills here are junctioned into `~/.claude/skills/` and load automatically.
 
@@ -19,3 +19,15 @@ This vault is Claude's brain. All skills here are junctioned into `~/.claude/ski
 
 ## Quick Reference
 See `~/Desktop/Cheatsheet/Claude_Skills_Cheatsheet.pdf` for the full cheatsheet.
+
+<!-- skill-links:start -->
+## Maps
+Home: [[Home]]
+- [[Skill Maps/Frontend & UI Design|Frontend & UI Design]]
+- [[Skill Maps/Dev Workflow|Dev Workflow]]
+- [[Skill Maps/Office Documents|Office Documents]]
+- [[Skill Maps/Writing & Content|Writing & Content]]
+- [[Skill Maps/Research & Planning|Research & Planning]]
+- [[Skill Maps/Browser & Automation|Browser & Automation]]
+- [[Skill Maps/Building Skills & AI|Building Skills & AI]]
+<!-- skill-links:end -->

@@ -1,3 +1,7 @@
+---
+tags: [skill, planning]
+cssclasses: [skill-planning]
+---
 ## research-junshi
 
 **Description:** Personalized academic literature digests and ranked research ideas grounded in your own papers and persistent memory. Daily paper discovery, strategic research advice, ranked idea pitches (novelty × 0.4 + feasibility × 0.3 + impact × 0.3), tracks arXiv/Crossref plus venue proceedings.

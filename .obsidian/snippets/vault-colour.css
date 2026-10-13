@@ -1,0 +1,76 @@
+/* Kai Vault colours - category colours match the graph view */
+:root {
+  --k-coding: #4c9aff; --k-docs: #f5c542; --k-auto: #3ecf8e; --k-plan: #a78bfa;
+  --k-map: #ff7eb6; --k-repo: #e8956a; --k-arch: #8b93a1;
+}
+
+/* File explorer: coloured folder + file rows with a left accent bar */
+.nav-folder-title[data-path*="Coding & Dev"], .nav-file-title[data-path*="Coding & Dev"] { border-left: 3px solid var(--k-coding); }
+.nav-folder-title[data-path*="Documents & Writing"], .nav-file-title[data-path*="Documents & Writing"] { border-left: 3px solid var(--k-docs); }
+.nav-folder-title[data-path*="Automation & Playwright"], .nav-file-title[data-path*="Automation & Playwright"] { border-left: 3px solid var(--k-auto); }
+.nav-folder-title[data-path*="Planning & Brainstorming"], .nav-file-title[data-path*="Planning & Brainstorming"] { border-left: 3px solid var(--k-plan); }
+.nav-folder-title[data-path^="Skill Maps"], .nav-file-title[data-path^="Skill Maps"], .nav-file-title[data-path="Home.md"] { border-left: 3px solid var(--k-map); }
+.nav-folder-title[data-path^="Anthropic Skills Repo"], .nav-file-title[data-path^="Anthropic Skills Repo"] { border-left: 3px solid var(--k-repo); }
+.nav-folder-title[data-path^="_archive"], .nav-file-title[data-path^="_archive"] { border-left: 3px solid var(--k-arch); opacity: .7; }
+.nav-folder-title[data-path*="Coding & Dev"]:not([data-path*="/"]):hover,
+.nav-folder-title-content { font-weight: 500; }
+.nav-folder-title[data-path*="Coding & Dev"]:not([data-path*="Coding & Dev/"]) { color: var(--k-coding); }
+.nav-folder-title[data-path*="Documents & Writing"]:not([data-path*="Documents & Writing/"]) { color: var(--k-docs); }
+.nav-folder-title[data-path*="Automation & Playwright"]:not([data-path*="Automation & Playwright/"]) { color: var(--k-auto); }
+.nav-folder-title[data-path*="Planning & Brainstorming"]:not([data-path*="Planning & Brainstorming/"]) { color: var(--k-plan); }
+
+/* Per-category note colours (set via cssclasses frontmatter) */
+.skill-coding   { --k-accent: var(--k-coding); }
+.skill-docs     { --k-accent: var(--k-docs); }
+.skill-automation { --k-accent: var(--k-auto); }
+.skill-planning { --k-accent: var(--k-plan); }
+.vault-map, .vault-home { --k-accent: var(--k-map); }
+
+.skill-coding, .skill-docs, .skill-automation, .skill-planning, .vault-map, .vault-home {
+  --link-color: var(--k-accent);
+  --link-color-hover: var(--k-accent);
+  --h1-color: var(--k-accent);
+  --h2-color: var(--k-accent);
+  --h3-color: var(--text-normal);
+  --bold-color: var(--k-accent);
+  --blockquote-border-color: var(--k-accent);
+  --list-marker-color: var(--k-accent);
+  --text-highlight-bg: color-mix(in srgb, var(--k-accent) 28%, transparent);
+}
+.skill-coding h1, .skill-docs h1, .skill-automation h1, .skill-planning h1, .vault-map h1, .vault-home h1,
+.skill-coding .inline-title, .skill-docs .inline-title, .skill-automation .inline-title, .skill-planning .inline-title,
+.vault-map .inline-title, .vault-home .inline-title { color: var(--k-accent); }
+.skill-coding h2, .skill-docs h2, .skill-automation h2, .skill-planning h2, .vault-map h2, .vault-home h2 {
+  border-bottom: 1px solid color-mix(in srgb, var(--k-accent) 40%, transparent); padding-bottom: .2em;
+}
+
+/* Links read as chips in the Related block and on maps */
+.vault-map a.internal-link, .vault-home a.internal-link {
+  background: color-mix(in srgb, var(--k-accent) 14%, transparent);
+  padding: 0 .35em; border-radius: 6px; text-decoration: none;
+}
+
+/* Tags as pills */
+a.tag { border-radius: 999px; padding: 0 .6em; font-weight: 500; }
+a.tag[href="#coding-dev"]   { background: color-mix(in srgb, var(--k-coding) 22%, transparent); color: var(--k-coding); }
+a.tag[href="#docs-writing"] { background: color-mix(in srgb, var(--k-docs) 22%, transparent);   color: var(--k-docs); }
+a.tag[href="#automation"]   { background: color-mix(in srgb, var(--k-auto) 22%, transparent);   color: var(--k-auto); }
+a.tag[href="#planning"]     { background: color-mix(in srgb, var(--k-plan) 22%, transparent);   color: var(--k-plan); }
+a.tag[href="#map"], a.tag[href="#home"] { background: color-mix(in srgb, var(--k-map) 22%, transparent); color: var(--k-map); }
+
+/* Tidy reading width and callouts */
+.markdown-preview-view, .markdown-source-view.mod-cm6 .cm-content { --file-line-width: 760px; }
+.callout { border-radius: 10px; }
+/* second-brain folders */
+.nav-folder-title[data-path^="00 Inbox"], .nav-file-title[data-path^="00 Inbox"] { border-left: 3px solid #ff6b6b; }
+.nav-folder-title[data-path^="01 Daily"], .nav-file-title[data-path^="01 Daily"] { border-left: 3px solid #5eead4; }
+.nav-folder-title[data-path^="02 Projects"], .nav-file-title[data-path^="02 Projects"] { border-left: 3px solid #fb923c; }
+.nav-folder-title[data-path^="03 Areas"], .nav-file-title[data-path^="03 Areas"] { border-left: 3px solid #38bdf8; }
+.nav-folder-title[data-path^="04 Resources"], .nav-file-title[data-path^="04 Resources"] { border-left: 3px solid #c084fc; }
+.nav-folder-title[data-path^="05 Templates"], .nav-file-title[data-path^="05 Templates"] { border-left: 3px solid var(--k-arch); }
+.vault-daily { --k-accent: #5eead4; --h1-color: #5eead4; --h2-color: #5eead4; --link-color: #5eead4; }
+a.tag[href="#project"]  { background: color-mix(in srgb, #fb923c 22%, transparent); color: #fb923c; }
+a.tag[href="#area"]     { background: color-mix(in srgb, #38bdf8 22%, transparent); color: #38bdf8; }
+a.tag[href="#resource"] { background: color-mix(in srgb, #c084fc 22%, transparent); color: #c084fc; }
+a.tag[href="#daily"]    { background: color-mix(in srgb, #5eead4 22%, transparent); color: #5eead4; }
+a.tag[href="#idea"]     { background: color-mix(in srgb, #fde047 22%, transparent); color: #fde047; }

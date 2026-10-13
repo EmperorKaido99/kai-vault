@@ -1,3 +1,7 @@
+---
+tags: [skill, docs-writing]
+cssclasses: [skill-docs]
+---
 ## article-optimizer
 
 **Description:** Improve a specific article under a fixed viral-scoring rubric — iterate on one article to raise its score via scoring + rewrite loops. Scoring prompt stays fixed; the article text is what changes.

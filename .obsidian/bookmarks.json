@@ -1,0 +1,34 @@
+{
+    "items":  [
+                  {
+                      "title":  "Home",
+                      "path":  "Home.md",
+                      "type":  "file"
+                  },
+                  {
+                      "title":  "Second Brain Guide",
+                      "path":  "Second Brain Guide.md",
+                      "type":  "file"
+                  },
+                  {
+                      "title":  "Dashboard",
+                      "path":  "Dashboard.base",
+                      "type":  "file"
+                  },
+                  {
+                      "title":  "Inbox",
+                      "path":  "00 Inbox/README.md",
+                      "type":  "file"
+                  },
+                  {
+                      "title":  "Projects",
+                      "path":  "02 Projects/README.md",
+                      "type":  "file"
+                  },
+                  {
+                      "title":  "Areas",
+                      "path":  "03 Areas/README.md",
+                      "type":  "file"
+                  }
+              ]
+}

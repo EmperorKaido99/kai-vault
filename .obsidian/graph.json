@@ -1,22 +1,100 @@
 {
-  "collapse-filter": true,
-  "search": "",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.508761885579248,
-  "close": true
+    "collapse-filter":  true,
+    "search":  "",
+    "showTags":  false,
+    "showAttachments":  false,
+    "hideUnresolved":  true,
+    "showOrphans":  true,
+    "collapse-color-groups":  false,
+    "colorGroups":  [
+                        {
+                            "query":  "path:\"Coding \u0026 Dev\"",
+                            "color":  {
+                                          "rgb":  5020415,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"Documents \u0026 Writing\"",
+                            "color":  {
+                                          "rgb":  16106818,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"Automation \u0026 Playwright\"",
+                            "color":  {
+                                          "rgb":  4116366,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"Planning \u0026 Brainstorming\"",
+                            "color":  {
+                                          "rgb":  10980346,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"Skill Maps\" OR file:Home",
+                            "color":  {
+                                          "rgb":  16744118,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"Anthropic Skills Repo\"",
+                            "color":  {
+                                          "rgb":  15242602,
+                                          "a":  1
+                                      }
+                        },
+                        {
+                            "query":  "path:\"00 Inbox\"",
+                            "color":  {
+                                          "a":  1,
+                                          "rgb":  16739179
+                                      }
+                        },
+                        {
+                            "query":  "path:\"01 Daily\"",
+                            "color":  {
+                                          "a":  1,
+                                          "rgb":  6220500
+                                      }
+                        },
+                        {
+                            "query":  "path:\"02 Projects\"",
+                            "color":  {
+                                          "a":  1,
+                                          "rgb":  16486972
+                                      }
+                        },
+                        {
+                            "query":  "path:\"03 Areas\"",
+                            "color":  {
+                                          "a":  1,
+                                          "rgb":  3718648
+                                      }
+                        },
+                        {
+                            "query":  "path:\"04 Resources\"",
+                            "color":  {
+                                          "a":  1,
+                                          "rgb":  12616956
+                                      }
+                        }
+                    ],
+    "collapse-display":  true,
+    "showArrow":  true,
+    "textFadeMultiplier":  -1,
+    "nodeSizeMultiplier":  1.3,
+    "lineSizeMultiplier":  1,
+    "collapse-forces":  true,
+    "centerStrength":  0.518713248970312,
+    "repelStrength":  14,
+    "linkStrength":  1,
+    "linkDistance":  180,
+    "scale":  0.173669369271816,
+    "close":  true
 }

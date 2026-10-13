@@ -1,3 +1,7 @@
+---
+tags: [skill, planning]
+cssclasses: [skill-planning]
+---
 ## academic-paper
 
 **Description:** 12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX/PDF output. Part of the [[academic-pipeline]] lifecycle alongside [[deep-research]] and [[academic-paper-reviewer]].
