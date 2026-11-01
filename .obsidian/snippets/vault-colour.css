@@ -1,7 +1,7 @@
 /* Kai Vault colours - category colours match the graph view */
 :root {
   --k-coding: #4c9aff; --k-docs: #f5c542; --k-auto: #3ecf8e; --k-plan: #a78bfa;
-  --k-map: #ff7eb6; --k-repo: #e8956a; --k-arch: #8b93a1;
+  --k-map: #ff7eb6; --k-repo: #e8956a; --k-arch: #8b93a1; --k-discovery: #cbd5e1;
 }
 
 /* File explorer: coloured folder + file rows with a left accent bar */
@@ -12,6 +12,7 @@
 .nav-folder-title[data-path^="Skill Maps"], .nav-file-title[data-path^="Skill Maps"], .nav-file-title[data-path="Home.md"] { border-left: 3px solid var(--k-map); }
 .nav-folder-title[data-path^="Anthropic Skills Repo"], .nav-file-title[data-path^="Anthropic Skills Repo"] { border-left: 3px solid var(--k-repo); }
 .nav-folder-title[data-path^="_archive"], .nav-file-title[data-path^="_archive"] { border-left: 3px solid var(--k-arch); opacity: .7; }
+.nav-folder-title[data-path*="Discovery"], .nav-file-title[data-path*="Discovery"] { border-left: 3px solid var(--k-discovery); }
 .nav-folder-title[data-path*="Coding & Dev"]:not([data-path*="/"]):hover,
 .nav-folder-title-content { font-weight: 500; }
 .nav-folder-title[data-path*="Coding & Dev"]:not([data-path*="Coding & Dev/"]) { color: var(--k-coding); }
@@ -28,9 +29,10 @@
 .vault-project  { --k-accent: #fb923c; }
 .vault-area     { --k-accent: #38bdf8; }
 .vault-resource { --k-accent: #c084fc; }
+.skill-discovery { --k-accent: var(--k-discovery); }
 
 .skill-coding, .skill-docs, .skill-automation, .skill-planning, .vault-map, .vault-home,
-.vault-project, .vault-area, .vault-resource {
+.vault-project, .vault-area, .vault-resource, .skill-discovery {
   --link-color: var(--k-accent);
   --link-color-hover: var(--k-accent);
   --h1-color: var(--k-accent);
@@ -42,12 +44,12 @@
   --text-highlight-bg: color-mix(in srgb, var(--k-accent) 28%, transparent);
 }
 .skill-coding h1, .skill-docs h1, .skill-automation h1, .skill-planning h1, .vault-map h1, .vault-home h1,
-.vault-project h1, .vault-area h1, .vault-resource h1,
+.vault-project h1, .vault-area h1, .vault-resource h1, .skill-discovery h1,
 .skill-coding .inline-title, .skill-docs .inline-title, .skill-automation .inline-title, .skill-planning .inline-title,
 .vault-map .inline-title, .vault-home .inline-title,
-.vault-project .inline-title, .vault-area .inline-title, .vault-resource .inline-title { color: var(--k-accent); }
+.vault-project .inline-title, .vault-area .inline-title, .vault-resource .inline-title, .skill-discovery .inline-title { color: var(--k-accent); }
 .skill-coding h2, .skill-docs h2, .skill-automation h2, .skill-planning h2, .vault-map h2, .vault-home h2,
-.vault-project h2, .vault-area h2, .vault-resource h2 {
+.vault-project h2, .vault-area h2, .vault-resource h2, .skill-discovery h2 {
   border-bottom: 1px solid color-mix(in srgb, var(--k-accent) 40%, transparent); padding-bottom: .2em;
 }
 

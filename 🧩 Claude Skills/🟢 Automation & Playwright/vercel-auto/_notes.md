@@ -2,6 +2,7 @@
 tags: [claude-skill, automation, vercel]
 created: 2026-09-06
 status: active
+cssclasses: [skill-automation]
 ---
 
 # vercel-auto
