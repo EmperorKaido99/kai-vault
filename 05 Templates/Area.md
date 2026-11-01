@@ -3,6 +3,7 @@ description:
 title: {{title}}
 date: {{date:YYYY-MM-DD}}
 tags: [area]
+cssclasses: [vault-area]
 ---
 
 # {{title}}

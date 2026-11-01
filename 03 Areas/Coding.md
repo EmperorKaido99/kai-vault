@@ -2,6 +2,7 @@
 description: Software development
 title: Coding
 tags: [area]
+cssclasses: [vault-area]
 ---
 
 # Coding

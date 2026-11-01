@@ -5,6 +5,7 @@ date: {{date:YYYY-MM-DD}}
 status: active
 area:
 tags: [project]
+cssclasses: [vault-project]
 ---
 
 # {{title}}

@@ -2,6 +2,7 @@
 description: UI, brand and visual design
 title: Design
 tags: [area]
+cssclasses: [vault-area]
 ---
 
 # Design

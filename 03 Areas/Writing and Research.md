@@ -2,6 +2,7 @@
 description: Writing, documents and research
 title: Writing and Research
 tags: [area]
+cssclasses: [vault-area]
 ---
 
 # Writing and Research

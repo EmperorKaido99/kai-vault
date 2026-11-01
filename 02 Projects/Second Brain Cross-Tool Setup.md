@@ -5,6 +5,7 @@ date: 2026-11-01
 status: active
 area: Claude and AI Tooling
 tags: [project]
+cssclasses: [vault-project]
 ---
 
 # Second Brain Cross-Tool Setup

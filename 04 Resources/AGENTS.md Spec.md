@@ -5,6 +5,7 @@ date: 2026-11-01
 source: https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions/
 status: processed
 tags: [resource]
+cssclasses: [vault-resource]
 ---
 
 # AGENTS.md Spec

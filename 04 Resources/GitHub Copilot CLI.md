@@ -5,6 +5,7 @@ date: 2026-11-01
 source: https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-custom-instructions
 status: processed
 tags: [resource]
+cssclasses: [vault-resource]
 ---
 
 # GitHub Copilot CLI

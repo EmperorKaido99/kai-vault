@@ -11,10 +11,14 @@
             "id": "5bc6aba8fa6aae91",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -186,11 +190,16 @@
   },
   "active": "5bc6aba8fa6aae91",
   "lastOpenFiles": [
+    "05 Templates/Resource.md.tmp.14048.bc7dac75d8db",
+    "05 Templates/Area.md.tmp.14048.2761c37ff3b0",
+    "05 Templates/Project.md.tmp.14048.492000f77bd2",
+    "Home.md",
+    "Untitled.canvas",
+    "Skill Maps/Frontend & UI Design.md",
     "01 Daily/2026-11-01.md",
     "04 Resources/AGENTS.md Spec.md",
     "04 Resources/GitHub Copilot CLI.md",
     "02 Projects/Second Brain Cross-Tool Setup.md",
-    "Home.md",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/plugins/dotnet-test/skills/code-testing-extensions/SKILL.md",
     "Skill Maps/Browser & Automation.md",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/plugins/dotnet/skills/msbuild/references/build-perf-baseline.md",
@@ -198,7 +207,6 @@
     "AGENTS.md.tmp.14048.8b6e4bead3dd",
     "🧩 Claude Skills/🔵 Coding & Dev/claude-api/shared/error-codes.md",
     "🧩 Claude Skills/🟣 Planning & Brainstorming/executing-plans/_notes.md",
-    "Skill Maps/Frontend & UI Design.md",
     "🧩 Claude Skills/🔵 Coding & Dev/stitch-design-taste/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/stitch-design-taste/SKILL.md",
     "🧩 Claude Skills/🔵 Coding & Dev/stitch-design-taste/LICENSE.txt",
@@ -215,13 +223,10 @@
     "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/SKILL.md",
     "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/LICENSE.txt",
-    "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-web/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-web/SKILL.md",
-    "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-web/LICENSE.txt",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-mobile/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-mobile/SKILL.md",
-    "🧩 Claude Skills/🔵 Coding & Dev/image-to-code/SKILL.md",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/tests/dotnet-data/create-datadriven-aspnetcore/fixtures/blazor-crud/wwwroot/favicon.png",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/docs/images/vally-pr-comment-example.png",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/docs/images/vally-pr-comment-edge-cases.png",

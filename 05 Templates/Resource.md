@@ -5,6 +5,7 @@ date: {{date:YYYY-MM-DD}}
 source:
 status: unprocessed
 tags: [resource]
+cssclasses: [vault-resource]
 ---
 
 # {{title}}

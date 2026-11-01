@@ -2,6 +2,7 @@
 description: Claude Code, MCP, agents, local models
 title: Claude and AI Tooling
 tags: [area]
+cssclasses: [vault-area]
 ---
 
 # Claude and AI Tooling
