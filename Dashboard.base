@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.ext == "md"
+views:
+  - type: table
+    name: Inbox
+    filters:
+      and:
+        - file.folder == "00 Inbox"
+        - file.name != "README"
+    order:
+      - file.name
+      - file.ctime
+  - type: table
+    name: Active projects
+    filters:
+      and:
+        - file.hasTag("project")
+        - status == "active"
+    order:
+      - file.name
+      - area
+      - date
+  - type: table
+    name: Unprocessed resources
+    filters:
+      and:
+        - file.hasTag("resource")
+        - status == "unprocessed"
+    order:
+      - file.name
+      - source
+      - date
+  - type: table
+    name: All skills
+    filters:
+      and:
+        - file.hasTag("skill")
+    order:
+      - file.name
+      - file.folder
+      - file.mtime

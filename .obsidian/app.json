@@ -1,1 +1,9 @@
-{}
+{
+    "propertiesInDocument":  "visible",
+    "useMarkdownLinks":  false,
+    "newLinkFormat":  "shortest",
+    "newFileLocation":  "folder",
+    "showLineNumber":  false,
+    "alwaysUpdateLinks":  true,
+    "newFileFolderPath":  "00 Inbox"
+}
