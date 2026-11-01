@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/README.md",
+                "file": "🧩 Claude Skills/🟣 Planning & Brainstorming/deep-research/references/cross_agent_quality_definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "cross_agent_quality_definitions"
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "5bc6aba8fa6aae91",
   "lastOpenFiles": [
+    "🧩 Claude Skills/🔵 Coding & Dev/brandkit/_notes.md",
+    "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/README.md",
     "05 Templates/Resource.md.tmp.14048.bc7dac75d8db",
     "05 Templates/Area.md.tmp.14048.2761c37ff3b0",
     "05 Templates/Project.md.tmp.14048.492000f77bd2",
@@ -222,11 +224,9 @@
     "🧩 Claude Skills/🔵 Coding & Dev/minimalist-ui",
     "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/SKILL.md",
-    "🧩 Claude Skills/🔵 Coding & Dev/industrial-brutalist-ui/LICENSE.txt",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-web/_notes.md",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-web/SKILL.md",
     "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-mobile/_notes.md",
-    "🧩 Claude Skills/🔵 Coding & Dev/imagegen-frontend-mobile/SKILL.md",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/tests/dotnet-data/create-datadriven-aspnetcore/fixtures/blazor-crud/wwwroot/favicon.png",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/docs/images/vally-pr-comment-example.png",
     "🧩 Claude Skills/🔵 Coding & Dev/dotnet-skills/eng/vally-adapter/docs/images/vally-pr-comment-edge-cases.png",

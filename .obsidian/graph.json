@@ -7,20 +7,104 @@
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
-    { "query": "path:\"🧩 Claude Skills/🔵 Coding & Dev\"", "color": { "a": 1, "rgb": 5020415 } },
-    { "query": "path:\"🧩 Claude Skills/🟡 Documents & Writing\"", "color": { "a": 1, "rgb": 16106818 } },
-    { "query": "path:\"🧩 Claude Skills/🟢 Automation & Playwright\"", "color": { "a": 1, "rgb": 4116366 } },
-    { "query": "path:\"🧩 Claude Skills/🟣 Planning & Brainstorming\"", "color": { "a": 1, "rgb": 10980346 } },
-    { "query": "path:\"🧩 Claude Skills/⚪ Discovery (Awesome Lists)\"", "color": { "a": 1, "rgb": 13358561 } },
-    { "query": "path:\"Skill Maps\"", "color": { "a": 1, "rgb": 16744118 } },
-    { "query": "path:\"Anthropic Skills Repo\"", "color": { "a": 1, "rgb": 15242602 } },
-    { "query": "path:\"_archive\"", "color": { "a": 1, "rgb": 9147297 } },
-    { "query": "path:\"00 Inbox\"", "color": { "a": 1, "rgb": 16739179 } },
-    { "query": "path:\"01 Daily\"", "color": { "a": 1, "rgb": 6220500 } },
-    { "query": "path:\"02 Projects\"", "color": { "a": 1, "rgb": 16486972 } },
-    { "query": "path:\"03 Areas\"", "color": { "a": 1, "rgb": 3718648 } },
-    { "query": "path:\"04 Resources\"", "color": { "a": 1, "rgb": 12616956 } },
-    { "query": "path:\"05 Templates\"", "color": { "a": 1, "rgb": 9147297 } }
+    {
+      "query": "path:\"🧩 Claude Skills/🔵 Coding & Dev\"",
+      "color": {
+        "a": 1,
+        "rgb": 5020415
+      }
+    },
+    {
+      "query": "path:\"🧩 Claude Skills/🟡 Documents & Writing\"",
+      "color": {
+        "a": 1,
+        "rgb": 16106818
+      }
+    },
+    {
+      "query": "path:\"🧩 Claude Skills/🟢 Automation & Playwright\"",
+      "color": {
+        "a": 1,
+        "rgb": 4116366
+      }
+    },
+    {
+      "query": "path:\"🧩 Claude Skills/🟣 Planning & Brainstorming\"",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "path:\"🧩 Claude Skills/⚪ Discovery (Awesome Lists)\"",
+      "color": {
+        "a": 1,
+        "rgb": 13358561
+      }
+    },
+    {
+      "query": "path:\"Skill Maps\"",
+      "color": {
+        "a": 1,
+        "rgb": 16744118
+      }
+    },
+    {
+      "query": "path:\"Anthropic Skills Repo\"",
+      "color": {
+        "a": 1,
+        "rgb": 15242602
+      }
+    },
+    {
+      "query": "path:\"_archive\"",
+      "color": {
+        "a": 1,
+        "rgb": 9147297
+      }
+    },
+    {
+      "query": "path:\"00 Inbox\"",
+      "color": {
+        "a": 1,
+        "rgb": 16739179
+      }
+    },
+    {
+      "query": "path:\"01 Daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 6220500
+      }
+    },
+    {
+      "query": "path:\"02 Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 16486972
+      }
+    },
+    {
+      "query": "path:\"03 Areas\"",
+      "color": {
+        "a": 1,
+        "rgb": 3718648
+      }
+    },
+    {
+      "query": "path:\"04 Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 12616956
+      }
+    },
+    {
+      "query": "path:\"05 Templates\"",
+      "color": {
+        "a": 1,
+        "rgb": 9147297
+      }
+    }
   ],
   "collapse-display": true,
   "showArrow": false,
@@ -32,6 +116,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.22920135941748823,
+  "scale": 0.1634837056722012,
   "close": true
 }
