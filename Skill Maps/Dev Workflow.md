@@ -24,6 +24,7 @@ Back to [[Home]] - [[🧩 Claude Skills/_index|Skills index]]
 - [[🧩 Claude Skills/🔵 Coding & Dev/finishing-a-development-branch/_notes|finishing-a-development-branch]]
 - [[🧩 Claude Skills/🔵 Coding & Dev/karpathy-guidelines/_notes|karpathy-guidelines]]
 - [[🧩 Claude Skills/🔵 Coding & Dev/full-output-enforcement/_notes|full-output-enforcement]]
+- [[🧩 Claude Skills/🔵 Coding & Dev/ralph-loop/_notes|ralph-loop]]
 
 ## Other maps
 - [[Skill Maps/Frontend & UI Design|Frontend & UI Design]]
