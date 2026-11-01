@@ -12,4 +12,6 @@ tags: [area]
 - [[Anthropic Skills Repo/README|Anthropic skills repo]]
 
 ## Active projects
+- [[02 Projects/Second Brain Cross-Tool Setup|Second Brain Cross-Tool Setup]]
+
 ## Open questions
