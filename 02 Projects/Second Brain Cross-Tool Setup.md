@@ -13,8 +13,8 @@ tags: [project]
 > Claude Code and GitHub Copilot CLI both read this vault as context automatically, from any repo, without re-explaining it each session.
 
 ## Next actions
-- [ ] Decommission the orphaned `~/Obsidian/YourVault` duplicate (delete or repurpose)
-- [ ] Check in a week whether Copilot CLI is actually picking up `~/.copilot/copilot-instructions.md` in practice — confirm in a real session, not just by file presence
+- [x] Decommission the orphaned `~/Obsidian/YourVault` duplicate — deleted 2026-11-01
+- [x] Confirm Copilot CLI actually picks up `~/.copilot/copilot-instructions.md` — verified 2026-11-01 via `copilot instruction list` (shows both `AGENTS.md` and the personal file, from the vault and from `~`) and a live `-p` prompt that answered correctly from instructions alone
 - [ ] Reconcile the `dotnet-skills` and `karanb192-awesome-claude-skills` embedded git repos under `🧩 Claude Skills/` (currently untracked, nested `.git` dirs — either proper submodules or flatten them)
 
 ## Notes
